@@ -1,0 +1,8 @@
+h1.splash-header {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0;
+  &:first-of-type {
+    margin: emCalc(100px)  auto 0 auto;
+  }
+}

@@ -1,0 +1,22 @@
+//Splash Screen Layout
+.splash {
+  background: url('http://placehold.it/1300x600') center center fixed;
+}
+
+.store-context {
+  margin: $slide-margin;
+}
+
+.store-problems {
+  margin: $slide-margin;
+}
+
+.solution {
+  margin: $slide-margin;
+}
+
+.solution-context {
+  background: url('http://placehold.it/1400x800') center center no-repeat;
+  height:100vh;
+  margin: $slide-margin;
+}
