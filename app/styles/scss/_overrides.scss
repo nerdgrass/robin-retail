@@ -1,0 +1,12 @@
+.top-bar-section li a:not(.button):hover {
+	backgound: green !important; 
+}
+
+// Added .custom selector to the a while trying to correct override on hover bg color
+@media only screen and (min-width: 58.75em) {
+  .top-bar-section li a.custom:not(.button):hover {
+	backgound: green !important; 
+    *zoom: 1;
+    overflow: visible;
+  }
+ }
