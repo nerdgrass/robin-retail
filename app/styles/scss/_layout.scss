@@ -1,6 +1,11 @@
 //Splash Screen Layout
 .splash {
   background: url('http://placehold.it/1300x600') center center fixed;
+  /*background: url('../../images/backgroundInStore1.png') no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .store-context {

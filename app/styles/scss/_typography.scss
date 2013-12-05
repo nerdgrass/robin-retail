@@ -1,8 +1,59 @@
 h1.splash-header {
   text-align: center;
-  font-weight: 300;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 4.75em;
+  color: #32383E;
+  margin-top: 0;
+  &:first-of-type {
+    margin: emCalc(50px)  auto 0 auto;
+  }
+}
+/*
+h2 {
+  font-weight: 600;
+  font-size: 1.875em;
+  color: #32383E;
   margin-top: 0;
   &:first-of-type {
     margin: emCalc(100px)  auto 0 auto;
   }
 }
+
+h3 {
+  font-weight: 400;
+  font-size: 1.625em;
+  color: #FD4B46;
+  margin-top: 0;
+  &:first-of-type {
+    margin: emCalc(100px)  auto 0 auto;
+  }
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.0em;
+  color: #32383E;
+  margin-top: 0;
+  &:first-of-type {
+    margin: emCalc(100px)  auto 0 auto;
+  }
+}
+
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.875em;
+  color: #FD4B46;
+  margin-top: 0;
+  text-transform: uppercase;
+  &:first-of-type {
+    margin: emCalc(100px)  auto 0 auto;
+  }
+}
+
+p{
+	font-weight: 500;
+	font-size: 1.0em;
+}
+*/
