@@ -2,8 +2,9 @@ h1.splash-header {
   text-align: center;
   font-style: italic;
   font-weight: 600;
-  font-size: 4.75em;
-  color: #32383E;
+  font-size: 4.85em;
+  color: #FFFFFF;
+  text-shadow: 4px 4px #32383E;
   margin-top: 0;
   &:first-of-type {
     margin: emCalc(50px)  auto 0 auto;
