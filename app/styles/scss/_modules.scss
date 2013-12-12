@@ -1,0 +1,20 @@
+// Module  
+
+
+.logo-wrap {
+  float: left;
+}
+.logo-wrap #logo {
+  width: 89px;
+  height: 26px;
+  background: url('../../images/robin-type-white.png') top left no-repeat scroll;
+  background-size: 100%;
+  margin: 3px 0 0 0;
+  padding: 0;
+  line-height: 1.0em;
+}
+.ir {
+    background-color: transparent;
+    border: 0px none;
+    overflow: hidden;
+}
