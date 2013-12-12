@@ -26,9 +26,9 @@ $em-base: 16px !default;
 // $default-float: left;
 
 $body-bg: #F5F5F5;
-// $body-font-color: #222;
+$body-font-color: #3f011d;
 $body-font-family: 'Open Sans', sans-serif;
-// $body-font-weight: normal;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // Font-smoothing
@@ -126,7 +126,7 @@ $body-font-family: 'Open Sans', sans-serif;
 $header-font-family: 'Open Sans', sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-$header-font-color: #222;
+$header-font-color: #5b0428;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -1157,7 +1157,10 @@ $header-font-color: #222;
 
 // Background color for the top bar
 
- $topbar-bg:                            $robin-red;
+$topbar-bg: rgba(0,0,0,0);
+$topbar-dropdown-bg: rgba(0,0,0,0);
+
+
 
 // Height and margin
 
@@ -1170,14 +1173,14 @@ $topbar-margin-bottom:                 0;
 
 // Controlling the styles for the title in the top bar
 
-$topbar-title-weight:                  bold;
+$topbar-title-weight:                  300;
 $topbar-title-font-size:               emCalc(30px);
 
 // Style the top bar dropdown elements
 
 // $topbar-dropdown-bg:                   #222;
 // $topbar-dropdown-link-color:           #fff;
-// $topbar-dropdown-link-bg:              lighten($topbar-bg, 5%);
+$topbar-dropdown-link-bg:              $robin-red;
 // $topbar-dropdown-toggle-size:          5px;
 // $topbar-dropdown-toggle-color:         #fff;
 // $topbar-dropdown-toggle-alpha:         0.5;
@@ -1185,24 +1188,24 @@ $topbar-title-font-size:               emCalc(30px);
 // Set the link colors and styles for top-level nav
 
 // $topbar-link-color:                    #fff;
-$topbar-link-color-hover:              $dark-red;
+$topbar-link-color-hover:              darken($dark-red, 25%);
 // $topbar-link-color-active:             #fff;
-$topbar-link-weight:                   normal;
+$topbar-link-weight:                   300;
 $topbar-link-font-size:                emCalc(16px);
 // $topbar-link-hover-lightness:          -30%; // Darken by 30%
-$topbar-link-bg-hover:                 $dark-red;
+// $topbar-link-bg-hover:                 $dark-red;
 // $topbar-link-bg-active:                darken($topbar-bg, 3%);
 
 // $topbar-dropdown-label-color:          #555;
 // $topbar-dropdown-label-text-transform: uppercase;
-// $topbar-dropdown-label-font-weight:    bold;
+$topbar-dropdown-label-font-weight:    300;
 // $topbar-dropdown-label-font-size:      emCalc(10px);
 
 // Top menu icon styles
 
 // $topbar-menu-link-transform:           uppercase;
 // $topbar-menu-link-font-size:           emCalc(13px);
-// $topbar-menu-link-weight:              bold;
+$topbar-menu-link-weight:              300;
 // $topbar-menu-link-color:               #fff;
 // $topbar-menu-icon-color:               #fff;
 // $topbar-menu-link-color-toggled:       #888;
