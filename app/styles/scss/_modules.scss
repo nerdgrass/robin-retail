@@ -8,7 +8,6 @@
 //   }
 // }
 
-
 //Logo?
 .logo-wrap {
   float: left;
@@ -23,7 +22,17 @@
   line-height: 1.0em;
 }
 .ir {
-    background-color: transparent;
-    border: 0px none;
-    overflow: hidden;
+  background-color: transparent;
+  border: 0px none;
+  overflow: hidden;
+}
+
+.storeImage {
+  padding: 6px;
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+.submit-button {
+  background: $robin-red;
 }

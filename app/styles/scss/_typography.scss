@@ -1,22 +1,36 @@
 .splashHeader {
   font-weight: 600;
-  font-size: 4.85em;
   color: #FFFFFF;
-  text-shadow: 4px 4px #32383E;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: emCalc(24px);
+  text-shadow: 1px 1px #32383E;
 }
+
 h1.splashSubheader{
   margin-top: 0;
   margin-bottom: 0;
-  font-size: emCalc(36px);
+  font-size: emCalc(18px);
 }
 .splashContext {
   color: whitesmoke;
   font-weight: 300;
+  font-size:emCalc(16px);
   span {
     font-weight: 600;
     color: $robin-red;
+  }
+}
+@media only screen and (min-width: 58.75em) {
+  .splashHeader {
+    font-size: 4.85em;
+    text-shadow: 4px 4px #32383E;
+  }
+  h1.splashSubheader {
+    font-size: emCalc(48px);
+  }
+  .splashContext {
+    font-size:emCalc(16px);
   }
 }
 /*
